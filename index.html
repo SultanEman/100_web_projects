@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <script defer src="script.js"></script>
+    <title>Short Notes</title>
+  </head>
+  <body>
+    <header class="main__header">
+      <h1>Take short notes and access them any time you want!</h1>
+      <nav>
+        <ul>
+          <li>
+            <button type="button" id="create_note">Create New Note</button>
+          </li>
+          <li><button type="button" id="delete_note">Delete Note</button></li>
+          <li>
+            <button type="button" id="show_notes">Show Previous Notes</button>
+          </li>
+        </ul>
+      </nav>
+
+      <!--create note-->
+      <section class="create__note__container">
+        <div class="note_card">
+          <label for="title">Note Title : </label>
+          <input type="text" id="title" />
+          <br />
+          <button id="create">Create</button>
+        </div>
+      </section>
+
+      <section class="delete__note__container">
+        <div class="note_card">
+          <label for="id">Note Title</label>
+          <input type="text" id="deleteTitle" />
+          <br />
+          <button id="delete">Delete</button>
+        </div>
+      </section>
+    </header>
+
+    <main>
+      <section class="notes__wrapper">
+        <!-- <article class="notes__container">
+          <div class="note__head">
+            <h2>title</h2>
+            <p class="note__id">id</p>
+            <p class="note__date">date</p>
+          </div>
+          <div class="note__body">
+            <textarea class="note"></textarea>
+          </div>
+        </article> -->
+        <!-- <button class="save_note">Save</button> -->
+        <!-- <button class="close_note">Delete</button> -->
+      </section>
+    </main>
+
+    <footer></footer>
+  </body>
+</html>
